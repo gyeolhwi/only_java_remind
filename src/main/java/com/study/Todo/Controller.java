@@ -26,7 +26,7 @@ public class Controller {
             start(command, scanner);
         }
     }
-
+//    TODO 함수 동작 해야됨
     public static void start(int command, Scanner scanner) {
         int id;
         switch (command) {
