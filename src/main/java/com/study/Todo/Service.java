@@ -1,13 +1,15 @@
 package com.study.Todo;
 
+import java.util.List;
+
 public interface Service {
-    public Dto addContent(String content);
+    public long addContent(String content);
 
-    public Dto getContent(String id);
+    public Dto getContent(long id);
 
-    public Dto getAllContent();
+    public List<Dto> getAllContent();
 
-    public Dto updateContent(String id, String content);
+    public boolean updateContent(long id, String content);
 
-    public Dto deleteContent(String id);
+    public boolean deleteContent(long id);
 }
